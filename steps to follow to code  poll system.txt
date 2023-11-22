@@ -1,0 +1,31 @@
+Group Project Question: GROUP E
+Interactive polls
+Create an Interactive poll system where users can vote on various topics. use html to display pol options, PHP to process votes and store them in the MYSQL database, and Javascript for real-time updates:- Group Leaders is Ishaq(09072071676) and Oseiwe (08140127072)
+
+solution:
+Step 1: Planning
+Define the requirements of your polling system. Consider the questions you want to ask, the type of responses (e.g., multiple-choice, yes/no), and any additional features such as real-time updates.
+
+Step 2: Set Up Your Development Environment
+Make sure you have a local server environment set up on your machine. Tools like XAMPP, WampServer, or MAMP can help you set up Apache, MySQL, and PHP on your computer.
+
+Step 3: Create the Database
+Use MySQL to create a database that will store the poll questions, options, and responses. You can use phpMyAdmin or execute SQL queries directly.
+
+Step 4: Create HTML Poll Form
+Design a web page with HTML to display the poll. This page should include the poll question and options. Use a form to submit the selected option to the PHP processing script.
+
+Step 5: Fetch Poll Data with PHP
+Create a PHP script (get_poll.php) to fetch the poll question and options from the database and dynamically populate the HTML form.
+
+Step 6: Process Poll Submission with PHP
+Create a PHP script (process_poll.php) to process the submitted poll and update the database.
+
+Step 7: Implement Real-Time Updates with JavaScript
+For real-time updates, you can use JavaScript and AJAX. Create a JavaScript file (poll.js) to handle the submission of the form asynchronously and update the poll options dynamically.
+
+Step 8: Test Your Polling System
+Open your poll.html page in a web browser and test your polling system. Make sure that votes are recorded correctly in the database and that the real-time updates work as expected.
+
+Step 9: Enhancements
+Consider adding additional features such as user authentication, result visualization, or the ability to create and manage multiple polls.
